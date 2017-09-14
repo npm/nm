@@ -26,7 +26,7 @@ node_modules with some minimal level of `package.json` and
 
 ### rm <pkg>
 
-Remove <pkg> from `node-modules` if it exists.
+Remove <pkg> from `node_modules` if it exists.
 
 Planned options: `-r` remove <pkg> and its transitive dependencies.  `-f -r`
 remove <pkg> and its transitive dependencies, even if they're also used by
