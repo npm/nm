@@ -20,8 +20,7 @@ $ npx nm rm module-name
 
 This is a command line tool for doing physical operations on your
 node_modules with some minimal level of `package.json` and
-`package-lock.json` awareness.  In contrast to `npm`, it is focused on
-physical operations on disk.
+`package-lock.json` awareness.
 
 ## Commands
 
@@ -43,7 +42,8 @@ Would be what `llmod` outputs.
 
 ### install/add
 
-Add packages w/o installing anything else. Read registry auth from `.npmrc` (no `nm login` however, use npm for that).
+Add packages w/o installing anything else.  Read registry auth from `.npmrc`
+(no `nm login` however, use npm for that).
 
 ### --save
 
